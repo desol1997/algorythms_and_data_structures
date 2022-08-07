@@ -1,4 +1,5 @@
-# Given the number 1 <= n <= 10^7. You need to find the last digit of the n-th Fibonacci number.
+# Given the number 1 <= n <= 10^7.
+# You need to find the last digit of the n-th Fibonacci number.
 
 
 def fib_last_digit(n):

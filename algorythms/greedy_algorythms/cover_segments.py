@@ -6,6 +6,27 @@
 # Output the optimal number of m points and the m points themselves.
 # If there are several such sets of points, print any of them.
 
+# Sample Input 1:
+# 3
+# 1 3
+# 2 5
+# 3 6
+
+# Sample Output 1:
+# 1
+# 3
+
+# Sample Input 2:
+# 4
+# 4 7
+# 1 3
+# 2 5
+# 5 6
+
+# Sample Output 2:
+# 2
+# 3 6
+
 
 def cover_segments(segments_list):
     segments_sorted = sorted(segments_list, key=lambda x: x[1])

@@ -1,6 +1,12 @@
 # Given an integer 1 <= n <= 40.
 # You need to calculate the n-th Fibonacci number (recall that F0 = 0, F1 = 1 and Fn = Fn-1 + Fn-2 for n >= 2).
 
+# Sample Input:
+# 3
+
+# Sample Output:
+# 2
+
 from functools import lru_cache
 
 

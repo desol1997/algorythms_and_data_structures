@@ -4,6 +4,25 @@
 # In the next k lines write the codes of the letters in the format "letter: code".
 # In the last line print the encoded string.
 
+# Sample Input 1:
+# a
+
+# Sample Output 1:
+# 1 1
+# a: 0
+# 0
+
+# Sample Input 2:
+# abacabad
+
+# Sample Output 2:
+# 4 14
+# a: 0
+# b: 10
+# c: 110
+# d: 111
+# 01001100100111
+
 import heapq
 from collections import Counter, namedtuple
 

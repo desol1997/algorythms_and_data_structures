@@ -4,6 +4,15 @@
 # the cost and volume will decrease proportionally) that fit into the given knapsack,
 # with an accuracy of at least three decimal places.
 
+# Sample Input:
+# 3 50
+# 60 20
+# 100 50
+# 120 30
+
+# Sample Output:
+# 180.000
+
 import heapq
 import sys
 

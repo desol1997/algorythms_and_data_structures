@@ -2,6 +2,20 @@
 # find the maximum number k for which n can be represented as the sum of k distinct natural terms.
 # Print the number k in the first line, and k terms in the second line.
 
+# Sample Input 1:
+# 4
+
+# Sample Output 1:
+# 2
+# 1 3
+
+# Sample Input 2:
+# 6
+
+# Sample Output 2:
+# 3
+# 1 2 3
+
 
 def various_terms(n):
     terms_list = []

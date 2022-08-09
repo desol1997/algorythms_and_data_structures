@@ -1,6 +1,12 @@
 # Given integers 1 <= n <= 10^18 and 2 <= m <= 10^5.
 # You need to find the remainder after dividing the n-th Fibonacci number by m.
 
+# Sample Input:
+# 10 2
+
+# Sample Output:
+# 1
+
 # The solution uses an idea of Pisano period https://en.wikipedia.org/wiki/Pisano_period.
 
 

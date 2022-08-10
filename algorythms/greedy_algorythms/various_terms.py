@@ -34,7 +34,7 @@ def main():
     number = int(input())
     terms = various_terms(number)
     print(len(terms))
-    print(' '.join([str(term) for term in terms]))
+    print(' '.join(map(str, terms)))
 
 
 if __name__ == '__main__':

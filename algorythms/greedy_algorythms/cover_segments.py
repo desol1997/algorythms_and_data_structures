@@ -51,7 +51,7 @@ def main():
 
     points = cover_segments(segments)
     print(len(points))
-    print(' '.join([str(point) for point in points]))
+    print(' '.join(map(str, points)))
 
 
 if __name__ == '__main__':

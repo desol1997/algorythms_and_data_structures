@@ -1,4 +1,4 @@
-# Link to the leetcode problem: https://leetcode.com/problems/middle-of-the-linked-list/
+# Link to the leetcode problem: https://leetcode.com/problems/partition-list/
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -18,11 +18,10 @@ class Solution:
             if current.val < x:
                 prev1.next = current
                 prev1 = prev1.next
-                current = current.next
             else:
                 prev2.next = current
                 prev2 = prev2.next
-                current = current.next
+            current = current.next
         prev1.next = None
         prev2.next = None
         prev1.next = dummy2.next

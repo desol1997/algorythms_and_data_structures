@@ -12,7 +12,7 @@ class Solution:
         prev = dummy
         for _ in range(1, left):
             prev = prev.next
-            current = prev.next
+        current = prev.next
         for _ in range(right - left):
             move_to_node = current.next
             current.next = move_to_node.next
